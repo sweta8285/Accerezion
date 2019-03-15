@@ -1,0 +1,232 @@
+
+body{
+       font-family: Montserrat;
+       
+			  
+            }
+div.top{
+  text-align: center;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #696969;
+  font-family: "Times New Roman", Times, serif;
+   }
+hr { 
+  border-bottom-color: #acacac;
+  border-bottom-style: inset;
+} 
+.top1__list
+{
+display: none;
+position: fixed;
+right: 20vw;
+font-size:75%;
+font-weight: bold;
+}
+@media (min-width: 820px){
+.top1__list{
+display: block;
+}}
+@media (min-width: 621px){
+.top2{
+top:2.5em;
+}}
+.top1{
+display: flex;
+align-items: right;
+justify-content: space-between;
+width:100%;
+margin:0;
+padding:0.5rem;
+z-index:1000;
+background-color:rgba(255,255,255,0.95);
+}
+
+.logo{
+  color: #ffe223;
+  text-decoration: none;
+  font-size:1.2vw;
+  float: right;
+  padding-left: 10vw;
+ position: fixed;
+ }
+body.android .app1{
+display: none !important;
+}
+.top3{
+transition: all 0.1s ease-in-out;
+display: block;
+width:9em;
+margin:0;
+padding:0;
+color:#1d2d35;
+}
+.top3:hover{
+-webkit-transform:scale(1.08, 1.08);
+transform:scale(1.08, 1.08);
+}
+.top1__list{
+display: none;
+margin:0;
+padding:0;
+font-size:85%;
+font-weight: bold;
+
+}
+@media (min-width: 820px){
+.top1__list{
+display: block;
+}}
+.top4{
+display: inline-block;
+margin:0 0.16em;
+vertical-align: middle;
+padding-top:1vw;
+
+}
+.top5{
+color:#139595;
+text-decoration: none;
+text-shadow: .03em .03em #acacac ;
+}
+.top5:visited{
+color:#1d2d35;
+text-decoration: none;
+}
+
+.heading{
+margin:0 0 0.25em 0;
+font-size:250%;
+line-height:3.05;
+text-align: center  ;
+font-weight: bold;
+}
+@media (min-width: 820px){
+.heading--xlarge{
+font-size:340%;
+}}
+.heading--tight{
+line-height:0.9;
+}
+.subheading{
+top:100px;
+font-size:160%;
+line-height:1.125;
+}
+.heading1{
+font-size:340%;
+}
+.heading2{
+line-height:0.9;
+}
+
+.top5:hover{
+color:#038930;
+text-decoration: none;
+}
+.text-clipping{
+vertical-align: middle;
+font-size: .6em;
+
+}
+.text-clipping--padded{
+padding:0.25em 0;
+}
+.line1{display: none;
+}
+@media (min-width: 820px){
+.line1{
+display: block;
+}}
+.home3{
+grid-column:3 / -3;
+padding-top:0.5em;
+background-color:#fff;
+font-weight: 900em;
+font-size: 2em;
+color: #;
+}
+@media (min-width: 820px){
+.home3{
+grid-column:3 / span 11;
+padding-top:6vw;
+background-color: transparent;
+max-width:55%;
+font-weight: 190em;
+}
+@supports (display: grid){
+.home3{
+max-width:100%;
+}}}
+.home2{
+padding-top:0em;
+background:#fff url(/home/becknf/Desktop/ACCREZION/trusth.png) center  top 4em/25em no-repeat;
+}
+@media (min-width: 820px){
+.home2{
+padding-top:0em;
+background:#fff url(/home/becknf/Desktop/ACCREZION/trusth.png) right  1rem top .1em/10vw  no-repeat;
+ background-color: #fff0f2;
+  width: 100%;
+  background-position: 77% 40%;
+  border: grey;
+  padding: 0em;
+  margin: 0em;
+  
+}}
+@media print{
+.navigation,.footer{
+display:none !important;
+}}
+.top1 .button{
+padding:0.5em 1em;
+color:#fff;
+background-color:#1d2d35;
+border-color:#1d2d35;
+}
+.top1 .button:hover{
+color:#fff !important;
+background-color:#038930 !important;
+border-color:#038930 !important;
+}
+.top1 .button:visited{
+color:#fff !important;
+}
+
+.flush--top{
+margin-top:0 !important;
+vertical-align: top;
+
+}
+
+.footer{
+  padding-top:2em;
+   display: block;
+   background-color:#686868;
+  width: 100%;
+  border: none;
+    color: white;
+    font-size:12px;
+ 
+   }
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+ 
+}
+a {
+  margin-right: 10px;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 7px;
+ left:50%;
+  position: relative;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
